@@ -1,11 +1,11 @@
 
 # Assignment Overview: Lab for Class 2
 
-- Your assignment will be to create an "About Me" HTML and JS project, and to also verify that you know how to use your Learning Journal. These are two separate projects that live in two separate Git/GitHub repositories
-
-- Note that as we progress through the week, new user stories will be added to the "About Me" project to guide the development of new features.
+- Your assignment will be to create an "About Me" HTML and JS project, and to also verify that you know how to use your Learning Journal. These are two separate projects; your learning journal will be a gist that you will update, while the "About Me" page will need its own GitHub repository.
 
 - There is an example of the Learning Journal in `learning-journal` directory. Take a look and use it as a guide and as inspiration.
+
+- Note that as we progress through the week, new user stories will be added to the "About Me" project to guide the development of new features.
 
 ### User Stories for "About Me" (MVP)
 
