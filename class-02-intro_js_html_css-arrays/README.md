@@ -6,30 +6,26 @@
 #### Quiz 1 will be published this afternoon. It will be due at 11:59pm tomorrow night (late Wednesday)
 
 ####Class Roadmap for Today
-
-- [Topics from HTML readings](#html) *[15 minutes]*
-- [Topics from CSS readings](#css) *[30 minutes]*
-- [Topics from JS readings](#js) *[45 minutes]*
-- *15 minute break*
-- [Learning Journal + `git init`](#lj) *[30 minutes]*
-- [Review lab assignment, code demo, `git clone`](#code) *[45 minutes]*
+- (Kind of) Code review
+- [Topics from JS readings](#js)
+- [Topics from CSS readings](#css) 
+- [Learning Journal](#lj)
+- [Review lab assignment, code demo, `git clone`](#code)
 
 ####Announcements:
- - Quiz 1 will be published at the end of lab this afternoon, and it will be due by 11:59pm Wednesday. We will go over it on Thursday. More about quizzes:
+- Finished your lab early? Here are some thing you can do to take advantage of your time here:
+  - Talk to your peers! Ask them to explain something in their code to you, or to explain something to them.
+  - Research a question you heard or thought of during lecture that we didn't have the time to address (and share your findings with the class.)
+  - Read documentation, or practice reading code.
+  - Grab a friend and do some whiteboarding practice. We'll work on finding some problems for you.
+- The goal of your lab is for you to explore and practice! Even though week one's project is fairly simple, it can be as impressive and portfolio-worthy as you make it.
+- Book share? Who likes having their physical books to reference?
+ - Quiz 1 will be published this afternoon, and it will be due by 11:59pm Wednesday. More about quizzes:
  	- Note that there will be some quiz content from time to time that we may not have covered yet for instance something on the quiz published today that we do not cover until tomorrow.
  	- Keep in mind that you have unlimited re-takes on the quizzes, and also that the quizzes are designed to be treated like they are open-book. It's more about what you can figure out than what you have memorized.
 	- Also, note that the quizzes have two main purposes:
   			1. To get you to re-engage with the content in a different way, reinforcing your knowledge.
   			2. To help you prepare for the Code 301 entrance exam, which you will take at the end of Week 3. There is a minimum threshold you must pass on that exam (70%), and also, that exam factors into your grade in this class.
-
-- There will be lots of detail work today on JS and CSS. We're going forward with the expectation that you will need minimal instruction on HTML except for concepts and overview of practices, and the specifics of how to interface with JS and CSS.
-
-- **Be sure to raise questions** about any topics that you'd like clarity about. If it is a topic that we will cover in the future, We'll let you know and maybe give a quick answer for meow. On this day in particular, where we have so much to cover, it is important to avoid going down time-consuming rabbit-holes.
-
-- The reasons for going over the JS and CSS chapters in so much detail this morning, even though they do overlap with the pre-work quite a bit:
-  1. Not everyone got the same amount of benefit/knowledge from completing pre-work.
-  2. There are gaps, and omissions, and depth of the subject matter that need to be addressed.
-  3. We're focusing on translating into "how we use this" and getting practice in applying this material within our new IDE (Integrated Development Environment) of Atom, Chrome, and the terminal.
 
 **Learning Objectives**
 
@@ -113,7 +109,7 @@ As a result of completing Day 2 of Code 201, students will:
 <a id="code"></a>
 ## Learning Journal
 
-We will look at the sample learning journal in the class repository and learn about `git init`
+We will look at the sample learning journal in the class repository.
 
 [-top-](#top)
 
@@ -121,10 +117,10 @@ We will look at the sample learning journal in the class repository and learn ab
 ## Live code
 
 In our code demo today we'll be doing the following:
-
-- Create a GitHub repo for our weekly project and `git clone` it
+- Install a JS Linter in VS Code
+- Create a GitHub repo for this week's project and `git clone` it
 - Read through the lab assignment, translating it into a to-do list, and fulfill some technical components such as:
-  1. Creating a basic scaffold for a code project
+  1. Create a basic scaffold for the project
   2. Utilize `if/else` statements to handle conditional logic
   3. Add in some basic input validation
   4. Utilize good Git processes including **a-c-p** cycles
