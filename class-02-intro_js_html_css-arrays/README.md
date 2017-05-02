@@ -5,14 +5,14 @@
 
 #### Quiz 1 will be published this afternoon. It will be due at 11:59pm tomorrow night (late Wednesday)
 
-####Class Roadmap for Today
+#### Class Roadmap for Today
 - (Kind of) Code review
 - [Topics from JS readings](#js)
 - [Topics from CSS readings](#css) 
 - [Learning Journal](#lj)
 - [Review lab assignment, code demo, `git clone`](#code)
 
-####Announcements:
+#### Announcements:
 - Finished your lab early? Here are some thing you can do to take advantage of your time here:
   - Talk to your peers! Ask them to explain something in their code to you, or to explain something to them.
   - Research a question you heard or thought of during lecture that we didn't have the time to address (and share your findings with the class.)
