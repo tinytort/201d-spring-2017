@@ -3,8 +3,26 @@
 ## Thinking like a programmer
 - Understanding what a computer needs
 - Domain modeling
+    - birdortv.com
+        - bird
+            - size
+            - beak
+            - appendages: wings, beaks, feather 
+            - fly
+        - tv
+            - corners
+            - appendages: feet, antenna
+            - can connect to the internet
 - Organizing our code
     - TODO create class folder
+    - Documents/codefellowspdx/201/
+        - labs
+            - about-me
+            - cookies
+            - shopping
+        - class-repo
+    - !IMPORTANT .git repo in .git repo = no.
+        - do NOT do your lab assignments in the class repo
 
 ## JavaScript
 - Data types
