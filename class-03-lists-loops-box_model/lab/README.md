@@ -7,6 +7,7 @@ It can be very handy to take notes and sketch things out when you are planning y
 ### User Stories (MVP... what you must do as a minimum)
 
 - As a developer, I want to use thoughtful and descriptive console.log() throughout my code to help test my work and assist with debugging.
+- As a developer, I want to work on my code in a new branch so I don't accidentally muck up master.
 - As a developer, I want to convert some of my appropriate biographical elements into unordered lists, such as my education summary and/or my work experience.
 - As a developer, I want to consider the user experience (UX) of my About Me and guessing game, trying to view it through the eyes of a user. Wait... maybe I should just write a user story for that...
 - As an end user of the About Me and guessing game, I want to have an informative, interesting, and fun experience in learning about the developer.
@@ -25,10 +26,11 @@ It can be very handy to take notes and sketch things out when you are planning y
 - Move the guessing game to a separate HTML file, list the questions on the page, and then have the answers fill in on the page after the user provides the answers.
 
 ### Technical Requirements
+- Edit my code on a new git branch named after my new feature (guessing-game).
 - Per the user stories, you will need to include in your HTML at least one each of an ordered and an unordered list.
 - Use `prompt` for input and `alert` for output to the user, unless you are working on the third Stretch Goal.
 - Do not use any 'switch' statements in your JavaScript.
-- Do not write any functions in your JavaScript.
+- Do not write any functions in your JavaScript. If you have functions in your JavaScript, make a new branch and remove them. This is in preparation for working with a pair tomorrow - you'll be writing functions together.
 - Expect that you will probably need both 'for' and 'while' structures for your sixth and seventh questions. But not necessarily.
 
 ### Submitting Your Assignment

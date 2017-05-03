@@ -14,6 +14,7 @@
             "warn", // change this to warn, just for fun/ so it doesn't give an error when your tabs are funny
             "tab"
         ] ````
+- VS Code Hot Key of the Day: `CTRL + K` then `CTRL + S` will open reference for all hot keys
 
 #### Schedule for today
 
