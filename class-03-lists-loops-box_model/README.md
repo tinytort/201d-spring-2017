@@ -17,9 +17,9 @@
 - VS Code Hot Key of the Day: `CTRL + K` then `CTRL + S` will open reference for all hot keys
 
 #### Schedule for today
-
+- [Share a tool or reference you found]
 - [Code Review](#codereview)  
-- [JS Control Flow](#control)
+- Lists, Loops, CSS 
 - [Git Branches & Lab Prep](#git) 
 
 **Learning Objectives**

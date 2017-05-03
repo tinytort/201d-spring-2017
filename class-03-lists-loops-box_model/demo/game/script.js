@@ -17,6 +17,7 @@ alert( '********************* \n \n PLAYER 2\'s TURN \n \n *********************
 // ask Player 2 the questions
 // TODO turn busLineAnswer into an array
 // TODO give Player 2 multiple guesses
+// TODO store total guesses by Player 2 for a future feature
 
 var busLineGuess = prompt( 'What bus line does Player 1 ride? There are multiple correct answers.' +
      'Guess one to move on. You have ' + numGuesses + ' guesses.' );
