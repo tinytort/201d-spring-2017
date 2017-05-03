@@ -7,6 +7,13 @@
 
 - Quiz 2 will be published this afternoon and will be due at 11:59pm Thursday night
 - Around 1:30, Amy will come to our lab to introduce herself. She'll be available for mentoring and help by appointment throughout the week.
+- eslint config update: (around line 10, under `rules`)
+    - ```` "rules": {
+        "no-console": 0, //add this line so it won't give you an error when logging to the console 
+        "indent": [
+            "warn", // change this to warn, just for fun/ so it doesn't give an error when your tabs are funny
+            "tab"
+        ] ````
 
 #### Schedule for today
 
