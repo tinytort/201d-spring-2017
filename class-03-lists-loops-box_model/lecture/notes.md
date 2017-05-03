@@ -21,6 +21,11 @@
 
 # git branches
 - when to work on what branch?
+    - master
+    - test
+    - development
+        - rebranding
+        - newButton
 - how to create a branch!
 - switching branches
 - combining branches    
