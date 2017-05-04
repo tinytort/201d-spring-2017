@@ -3,7 +3,7 @@
 ### Pairs
 * Stephanie - Kate; 
 * Hailey - Mark;
-* Cynthia - Tom;
+* Cynthia - Joe;
 * Andrew - Meryl;
 
 Today will be your first exercise in pair programming. You will be assigned to work with a partner, and the two of you will work on and extend each other's About Me guessing game projects. Be sure to READ and follow these instructions very carefully.
