@@ -3,23 +3,17 @@
 <a id="top"></a>
 # Today's Plan: Week 1, Thursday Lecture
 
-#### Quiz 1 is due at 11:59p tonight (Thursday).
-
-#### Quiz 2 will be published after lab today and will be due tomorrow (Friday) night.
-
-- Announcements
-
+#### Announcements
+	- Quiz 2 is due at 11:59p tonight (Thursday).
 	- Keep in mind that the quizzes are open-book, so do use the resources you choose to figure out the answers: books, internetz, JS console in your browser, whatever. And remember that the quizzes are preparing you for the 301 entrance exam, which you will take on the last weekend of this class (right before Project Week).
 
-- [Code Review](#codereview) *[45 minutes]:*
+#### Schedule
 
-- [CSS box model + layout](#css) *[45 minutes]:*
-
-*15 minute break*
-
-- [JS functions](#js) *[45 minutes]:*
-
-- [Look at the lab assignment, including PAIR PROGRAMMING](#lab) *[45 minutes]:*
+- [Code Review](#codereview)
+- GitHub fork and PR
+- [JS functions](#js) 
+- [CSS box model + layout](#css) 
+- [Look at the lab assignment, including PAIR PROGRAMMING](#lab) 
 
 **Learning Objectives**
 
@@ -36,14 +30,14 @@ As a result of completing Day 4 of Code 201, students will:
 - JS Chapter 3: "Functions, Objects, and Methods" pp.85-99
 
 <a id="codereview"></a>
-## Quiz & Code Review
+## Code Review
 
 Today we'll take 45 minutes to look at some code and go over possible solutions to yesterday's lab assignment.
 
 [-top-](#top)
 
 <a id="css"></a>
-## CSS box model + layout (with code demo)
+## CSS box model + layout
 
 **HTML Chapter 13: "Boxes" (CSS)**
 
@@ -67,12 +61,12 @@ Today we'll take 45 minutes to look at some code and go over possible solutions 
 - p.387: Layout grids
 - p.391: CSS frameworks
 
-##### [learnlayout.com](http://learnlayout.com) will be our practical entry point into layout
+##### [learnlayout.com](http://learnlayout.com) - another layout resource
 
 [-top-](#top)
 
 <a id="js"></a>
-## JS functions (with code demo)
+## JS functions
 
 <a id="js-readings"></a>
 **JS Chapter 3: "Functions, Objects, and Methods" (pp.85-99)**

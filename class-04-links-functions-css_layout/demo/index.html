@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sandbox</title>
+	</head>
+	<body>
+        <script>
+            /* polling commits by students example */
+            var commits = [];
+
+            /* use a for loop */
+            // for ( var count = 0; count < 8; count++ ) {
+            //     var commit = parseInt( prompt( 'How many commits did you make yesterday?' ) );
+            //     commits.push( commit );
+            //     console.log( commits );
+            // }
+
+            /* use a do while loop */
+            var isAddingAnother = true;
+            var commitTotal = 0;
+            do {
+                var commit = parseInt( prompt( 'How many commits did you make?' ) );
+                commits.push( commit );
+                console.log( commits );
+                
+                commitTotal += commit;
+                console.log( 'commit total:', commitTotal );
+
+                isAddingAnother = confirm( 'Do you want to add another commit' );
+
+            } while ( isAddingAnother && commitTotal < 100 );
+
+            if ( commitTotal >= 100 ) {
+                alert ( 'we hit 100 commits! yay!' );
+            }
+
+            /* WARNING may cause infinite loop */
+            // while ( commitTotal < 100 ) {
+            //     alert( 'we are under 100 ):' );
+            //     console.log( 'in while loop' );
+            /* to fix: try increasing commitTotal! */
+            // }
+
+            /* use a function */
+
+
+
+
+
+        </script>
+	</body>
+</html>

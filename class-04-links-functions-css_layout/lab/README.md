@@ -23,7 +23,7 @@ Be sure to follow these instructions **VERY** carefully.
 
 Note: Before starting these steps, make sure that both of your repositories are 'clean': in other words, everything is merged and pulled so that both the remote and local versions of your projects are in sync and that your most production-ready version of your code is in the master branch. This will prevent potential problems later.
 
-- Decide whose code you will work on first. The owner of that code (who will be the Navigator) provides the link to their GitHub repo to the other member of the pair (who will be the Driver). You can send this link over Slack, spell it verbally, or by carrier pigeon.
+- Decide whose code you will work on first. The owner of that code (who will be the Navigator) provides the link to their GitHub repo to the other member of the pair (who will be the Driver). You can send this link over Ryver, spell it verbally, or by carrier pigeon.
 
 - The Driver follows the link to that repo and creates a fork of the repo in GitHub like we did in class.
 
@@ -31,7 +31,7 @@ Note: Before starting these steps, make sure that both of your repositories are 
 
 - Inside of the Driver's main work directory on their laptop, make a directory with your partner’s name and then navigate (cd) into it. From there, enter the command `git clone the-https-link-you-copied`. That will create a local version of the forked repo on the Driver's laptop.
 
-- 'cd' into that directory and enter 'atom .' in the terminal to open all of the files in Atom.
+- 'cd' into that directory and enter 'code .' in the terminal to open all of the files in Atom.
 
 - Start working on the code!
 
