@@ -5,48 +5,55 @@
 	</head>
 	<body>
         <script>
-            /* polling commits by students example */
-            var commits = [];
 
-            /* use a for loop */
-            // for ( var count = 0; count < 8; count++ ) {
-            //     var commit = parseInt( prompt( 'How many commits did you make yesterday?' ) );
-            //     commits.push( commit );
-            //     console.log( commits );
-            // }
-
-            /* use a do while loop */
-            var isAddingAnother = true;
-            var commitTotal = 0;
-            do {
-                var commit = parseInt( prompt( 'How many commits did you make?' ) );
-                commits.push( commit );
-                console.log( commits );
-                
-                commitTotal += commit;
-                console.log( 'commit total:', commitTotal );
-
-                isAddingAnother = confirm( 'Do you want to add another commit' );
-
-            } while ( isAddingAnother && commitTotal < 100 );
-
-            if ( commitTotal >= 100 ) {
-                alert ( 'we hit 100 commits! yay!' );
+            function getName () {
+                var name;
+                name = prompt("Give me a name");
+                console.log("Name: " +name);
+                totalTallys();
+            }   
+            
+            function getVerb () {
+                var verb;
+                verb = prompt("Give me a verb ending with 'ing'");
+                console.log("Verb: " +verb);
             }
 
-            /* WARNING may cause infinite loop */
-            // while ( commitTotal < 100 ) {
-            //     alert( 'we are under 100 ):' );
-            //     console.log( 'in while loop' );
-            /* to fix: try increasing commitTotal! */
-            // }
+            function getNoun () {
+                var noun;
+                noun = prompt("Give me a noun");
+                console.log("Noun: " +noun);
 
-            /* use a function */
+                // console.log( total ); // not available
+                if ( noun === 'hammer' ) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
+            
+            function getAdj () {
+                var adjective;
+                adjective = prompt("Give me an adjective");
+                console.log("Adjective: " +adjective);
 
+                if ( adjective === 'orange' ) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
 
+            function totalTallys () {
+                var total = 0;
 
+                total += getAdj();
+                total += getNoun();
 
+                return total;
+            }
 
+            alert( 'you got ' + totalTallys() + ' questions right' );
         </script>
 	</body>
 </html>

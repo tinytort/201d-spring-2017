@@ -1,5 +1,11 @@
 # Assignment Overview: Lab for Class 4
 
+### Pairs
+* Stephanie - Kate; 
+* Hailey - Mark;
+* Cynthia - Tom;
+* Andrew - Meryl;
+
 Today will be your first exercise in pair programming. You will be assigned to work with a partner, and the two of you will work on and extend each other's About Me guessing game projects. Be sure to READ and follow these instructions very carefully.
 
 Since you have 4 hours in which to edit two projects, you'll need to work efficiently and limit your work to two hours on a single person's project. Time management is critical.
