@@ -1,48 +1,52 @@
-# Class 5: Understanding Images, plus CSS for Color & Text Styling
+## **Week 1: Basic HTML, CSS, JS**
+## Class 5: CSS Layout and Github Pages
 
-<a id="top"></a>
-# Today's Plan: Week 1, Friday Lecture
+[Schedule](#schedule) | [Announcements](#announcements) | [Objectives](#learning-objectives) | [Notes](#notes) | [Readings](#readings)
 
-#### We will start today by going over Quiz 1, which was due last night.
+<hr></hr>
 
-#### Reminder: Quiz 2 is due at 11:59pm tonight.
+### Schedule
+1. Announcements & Resource Sharing
+1. Code Review
+1. CSS Layout!!!
+1. Deploy to Github pages
+1. Lab prep
 
-#### Quiz 3 will be published tonight (Friday) and will be due late Sunday night.
+### Announcements
+- Quiz 3 will be published this afternoon and is due late Sunday night.
+- Weekly surveys will go out via email today. Your survey responses and feedback in general are helpful and much appreciated!
+- Your second learning journal is due by tomorow morning. I know it might feel silly, but thinking and writing about your learning experience helps you process what you've learned! For more information: [here's the README](https://github.com/codefellowspdx/201d-spring-2017/tree/master/class-02-intro_js_html_css-arrays/learning-journal)
+- Trying something different: Amy mentioned using a pomodoro timer when you're working. We're going to use one during lecture, as well.
+- Questions?
 
-- Announcements
-	- **Reminder:** Quizzes are open-book, so use the resources you choose to figure out the answers: books, internetz, JS console in your browser, whatever. And remember that the quizzes are preparing you for the 301 entrance exam, which you will take on the last weekend of this class (right before Project Week).
-	- **Reminder:** Weekly surveys will go out to students in email today. Your survey responses are very helpful and meaningful to us. Feedback is a gift.
+### Learning Objectives 
+- Publish a static webpage on GitHub by creating a gh-pages branch.
+- Style a webpage's layout, text, and images using CSS.
 
-### Today's Schedule
-- Quiz review and announcements [15 minutes]
-- [Instead of code review, a look at the readings and a smattering of topics](#smattering) *[75 minutes]*
+### Notes
+- Code review
+- CSS Layout
+	- let's code a couple layouts
+		- blog layout
+		- mobile first timeline (using positioning)
+		- try on your own: [side scrolling website](http://web.archive.org/web/20140816000955/myspace.com)
+	- frameworks
+- Deploy to GH Pages
+	- about your README.md
+		- what to include: description, license, contributors
+		- markdown syntax
+	- create a branch: `git checkout -b gh-pages`
+	- push to github
+	- visit your page: `<your-user-name>.github.io/<repo-name>`
+- Lap prep
+	- function practice (follow along)
+	- IIFE
 
-**break**
+<hr></hr>
 
-- [Git Branching, including deployment] (#git) *[30 minutes]*
-- [Lab Overview](#lab) *[45 minutes]*
+### Readings
 
-**Learning Objectives**
-
-As a result of completing Day 5 of Code 201, students will:
-
-- Extend their understanding of how functions work in JavaScript, as well as the component pieces including declarations, calls, parameters, arguments, and returns, as measured by successful completion of the daily code assignment.
-- Be able to publish a static webpage on GitHub by creating a gh-pages branch.
-- Extend their understanding of use of images, color, and text formatting to style and HTML page, as measured by successful completion of the daily code assignment.
-- Extend their understanding of image formats (JPG, GIF, PNG) and the strengths/weaknesses of each format, as measured by a quiz administered in Canvas.
-
-## Readings
-
-- HTML Chapter 5: "Images"
-- CSS Chapter 11: "Color"
-- CSS Chapter 12: "Text"
-
-[-top-](#top)
-
-<a id="readings"></a>
-## Readings for today
-
-**HTML Chapter 5: "Images"**
+##### HTML Chapter 5: "Images"
 
 - p.97: Choosing and storing images
 - p.99: \<img> tag with 'height' and 'width' attributes
@@ -51,7 +55,7 @@ As a result of completing Day 5 of Code 201, students will:
 - p.109: Image formats (JPG, GIF, PNG)
 - Other topics: dimensions, cropping, resolution, vector, animation, transparency, inspecting on web
 
-**HTML Chapter 11: "Color" (CSS)**
+##### HTML Chapter 11: "Color" (CSS)
 
 - p.249: Foreground color
 - p.250: Background color
@@ -60,7 +64,7 @@ As a result of completing Day 5 of Code 201, students will:
 - p.254: Opacity
 - p.255: HSL colors
 
-**HTML Chapter 12: "Text" (CSS)**
+##### HTML Chapter 12: "Text" (CSS)
 
 - p.267: Typeface terminology
 - p.269: Choosing a Typeface
@@ -68,41 +72,3 @@ As a result of completing Day 5 of Code 201, students will:
 - pp.275-76: Type scales and sizes
 - pp.279 and on: text transformations such as bold, italic, upper/lower, underline, strike, leading, spacing, alignment, indenting, drop shadow, first letter
 - p.292: Attribute selectors
-
-[-top-](#top)
-
-<a id="smattering"></a>
-## A smattering of topics
-
-- Motherfu...
-- 'use strict'
-- W3 Schools vs. MDN vs Stack Overflow, etc.
-- Linter setups
-- Addition pimping of Atom (panes, pigments, etc.)
-- The increment operator
-- Logical operators % short circuiting
-- String methods
-- Array methods
-- Function declarations vs. function assignments
-- CSS Zen Garden
-- HAMs
-
-<a id="git"></a>
-## Git branching, including deployment
-
-It's time to take a look at branching in Git. We'll start with some slides:
-
-[Slides are here!](slides/5-git-branching.pdf)
-
-We'll also go over the commands and do some practice with Git branches together in our terminals.
-
-<a id="lab"></a>
-## Code demo for today's lab
-
-Today's lab is a 'one-off' lab, in that it is not directly connected to your weekly project.
-
-You'll be working individually today. The GitHub workflow today is different, too, and is designed to give you a lot of practice working with branches, which is the last major piece of Git for us to cover. We need to spend a bit of time with it, and get practice with it, so that you understand what you are doing.
-
-The concepts covered in today's lab (functions that receive input and return output) will be VERY VERY helpful for you in next week's project. Ideally you will continue to work on little problems like this over the weekend for additional practice.
-
-[-top-](#top)
