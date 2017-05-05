@@ -24,10 +24,10 @@ a new branch for your work on the next question!
 
 // Write your code here
 function sum(a,b){ //eslint-disable-line
-    var c = a + b;
-    var str = "The sum of " + a + " and " + b + " is " + c + ".";
+	var c = a + b;
+	var str = "The sum of " + a + " and " + b + " is " + c + ".";
     
-    return [ c, str ];
+	return [ c, str ];
 
     // return [ sum, "The sum of " + a + " and " + b + " is " + sum + "."];
 }
@@ -61,10 +61,10 @@ create a new branch for your work on the next question!
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-    var total = a * b;
-    var phrase = 'The product of ' + a + ' and ' + b  + ' is ' + total + '.';
+	var total = a * b;
+	var phrase = 'The product of ' + a + ' and ' + b  + ' is ' + total + '.';
     
-    return [total, phrase];
+	return [total, phrase];
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -102,12 +102,12 @@ new branch for your work on the next question!
 
 // Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
-    var firstPart = sum(sum(a,b)[0] , sum(c,0)[0])[0];
-    var secondPart = multiply(multiply(a,b)[0], multiply(c,1)[0])[0];
-    var thirdPart = a + ' and ' + b + ' and ' + c + ' sum to ' + firstPart + '.';
-    var fourthPart = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + secondPart + '.';
+	var firstPart = sum(sum(a,b)[0] , sum(c,0)[0])[0];
+	var secondPart = multiply(multiply(a,b)[0], multiply(c,1)[0])[0];
+	var thirdPart = a + ' and ' + b + ' and ' + c + ' sum to ' + firstPart + '.';
+	var fourthPart = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + secondPart + '.';
     //console.log ([firstPart, secondPart, thirdPart, fourthPart]);
-    return [firstPart, secondPart, thirdPart, fourthPart]
+	return [firstPart, secondPart, thirdPart, fourthPart]
 
 }
 
@@ -142,11 +142,13 @@ new branch for your work on the next question!
 var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
-
+	var thisOne = sum(sum(testArray[0],testArray[1])[0], sum(testArray[2],0)[0])[0];
+	var thatOne = testArray + ' was passed in as an array of numbers, and ' + thisOne + ' is their sum.';
+	return [thisOne, thatOne];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
-// testSumArray(testArray);
+testSumArray(testArray);
 
 
 /////////////////////////////////////
