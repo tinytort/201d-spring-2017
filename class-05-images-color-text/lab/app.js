@@ -102,6 +102,7 @@ new branch for your work on the next question!
 
 // Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
+    console.log ('In sum and multiple', a , b , c);
 	var firstPart = sum(sum(a,b)[0] , sum(c,0)[0])[0];
 	var secondPart = multiply(multiply(a,b)[0], multiply(c,1)[0])[0];
 	var thirdPart = a + ' and ' + b + ' and ' + c + ' sum to ' + firstPart + '.';
@@ -177,8 +178,12 @@ new branch for your work on the next question!
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
+    var multipliesArray = multiply(multiply(testArray[0],testArray[1])[0], multiply(testArray[2],1)[0])[0];
+    var stringPart = 'The numbers ' + testArray + ' have a product of ' + multipliesArray  + '.';
+
+    return [multipliesArray, stringPart]
 
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(2,3,4);
+ testMultiplyArray(testArray);
