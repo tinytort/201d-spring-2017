@@ -24,10 +24,10 @@ a new branch for your work on the next question!
 
 // Write your code here
 function sum(a,b){ //eslint-disable-line
-    var sum = a + b;
-    var str = "The sum of " + a + " and " + b + " is " + sum + ".";
+    var c = a + b;
+    var str = "The sum of " + a + " and " + b + " is " + c + ".";
     
-    return [ sum, str ];
+    return [ c, str ];
 
     // return [ sum, "The sum of " + a + " and " + b + " is " + sum + "."];
 }
