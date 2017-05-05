@@ -20,10 +20,17 @@ Here are a couple of things to keep in mind:
 * Create a new branch for each code problem, and merge each branch into *master* on GitHub (and then pull back into master on your laptop!) when the problem is completed. Do the problems in order. Don't forget to pull the updated master branch from GitHub into your local master branch each time.
     1. fork the class repo
     2. clone your fork to your computer
-    3. branch and work on a problem
-    4. push your solution to github
+    3. create a branch and work on problem one
+    4. when your test passes, commit and push your branch to github
     5. merge your solution into master in github
-    6. pull master down to your computer `git pull`
+        1. go to your fork of the repo 
+        2. hit the `New pull request button`
+        3. change **base fork** to your fork
+        4. change **compare** to the branch you want to merge
+        5. go through the steps to merge the two branches
+        6. when the merge is complete, pull the updated master branch to your computer `git pull origin master`
+    6. repeat steps 3-5 for each problem
+
 * Although this is an individual lab assignment, do feel free to (heck, it is *encouraged* that you) collaborate and work in pairs or groups.
 
 
