@@ -102,11 +102,17 @@ new branch for your work on the next question!
 
 // Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
+    var firstPart = sum(sum(a,b)[0] , sum(c,0)[0])[0];
+    var secondPart = multiply(multiply(a,b)[0], multiply(c,1)[0])[0];
+    var thirdPart = a + ' and ' + b + ' and ' + c + ' sum to ' + firstPart + '.';
+    var fourthPart = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + secondPart + '.';
+    //console.log ([firstPart, secondPart, thirdPart, fourthPart]);
+    return [firstPart, secondPart, thirdPart, fourthPart]
 
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 
 /////////////////////////////////////
