@@ -18,6 +18,12 @@ Here are a couple of things to keep in mind:
 
 * Place no function calls in your code, unless inside of another function. Everything should be run by hand from the console. This is to give you additional practice using the console and practice efficient app-switching processes.
 * Create a new branch for each code problem, and merge each branch into *master* on GitHub (and then pull back into master on your laptop!) when the problem is completed. Do the problems in order. Don't forget to pull the updated master branch from GitHub into your local master branch each time.
+    1. fork the class repo
+    2. clone your fork to your computer
+    3. branch and work on a problem
+    4. push your solution to github
+    5. merge your solution into master in github
+    6. pull master down to your computer `git pull`
 * Although this is an individual lab assignment, do feel free to (heck, it is *encouraged* that you) collaborate and work in pairs or groups.
 
 
@@ -25,4 +31,4 @@ Here are a couple of things to keep in mind:
 ### HTML and JS setup
 You are being given starter code for today, in the index.html and app.js files inside of this directory. The success of your code will be determined by whether it passes tests that are in tests.js file. You do not need to do anything with tests.js, though you should take a look at it to see how it works.
 
-Submission instructions are in the Canvas assignment.
+Submission instructions are in the Canvas assignment
