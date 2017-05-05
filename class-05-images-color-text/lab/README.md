@@ -10,7 +10,7 @@ One of them is a weekend project: put finishing touches on your About Me project
 
 ### Second Part: In lab today
 
-Today in lab you will create a new GitHub repo, and create solutions to some little code problems.
+Today in lab you will create solutions to some little code problems.
 
 **Be sure to follow instructions carefully.**
 
